@@ -4,6 +4,8 @@ class View extends StatelessWidget {
   const View({super.key});
   @override
   Widget build(BuildContext context) {
-    return  const Center();
+    return  Container(
+      child: Center()
+    );
   }
   }
